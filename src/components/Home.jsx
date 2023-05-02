@@ -1,9 +1,12 @@
 import React from 'react';
+import { Container } from '../global/components';
 
 const Home = () => {
     return (
         <>
-            <div>Home</div>
+            <Container>
+                fksajglk
+            </Container>
         </>
     );
 }
