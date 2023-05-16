@@ -16,16 +16,16 @@ const Login = () => {
             <LoginWrapper>
                 <LoginTitle>Sign in</LoginTitle>
                 <InputContainer>
-                    <Label id='1' label='Username'/>
-                    <Input  placeholder='Email or Phone' id='1' name='Username' type='text'/>
+                    <Label id='Username' label='Username'/>
+                    <Input  placeholder='Email or Phone' id='Username' name='Username' type='text'/>
                 </InputContainer>
                 <InputContainer>
-                    <Label id='2' label='Password'/>
-                    <Input  placeholder='password' id='2' name='Password' type='password'/>
+                    <Label id='Password' label='Password'/>
+                    <Input  placeholder='password' id='Password' name='Password' type='password'/>
                 </InputContainer>
                 <CheckboxContainer>
-                    <Checkbox  placeholder='Checkbox' id='3' name='Checkbox' type='checkbox'/>
-                    <Label id='3' label='Checkbox'/>
+                    <Checkbox  placeholder='Checkbox' id='Checkbox' name='Checkbox' type='checkbox'/>
+                    <Label id='Checkbox' label='Remember me'/>
                 </CheckboxContainer>
                 <MainButton name='Login'/>
                 <Separatore title='OR'/>

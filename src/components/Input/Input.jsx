@@ -8,9 +8,9 @@ const Input = ({placeholder,value,name,id,type}) => {
         setVisibility((prev)=>!prev)
     }
     return (
-        <InputWrapper>
-            <InputFelid type={type!=='password'? type: visibility?type:'text'}  name={name} id={id} placeholder={placeholder} value={value} />
-            {type === 'password'? visibility?<VisibilityIcon onClick={visibilityHandler}/>:<VisibilityOffIcon onClick={visibilityHandler}/>:''}
+        <InputWrapper  >
+            <InputFelid  type={type!=='password'? type: visibility?type:'text'}  name={name} id={id} placeholder={placeholder} value={value} />
+            {type === 'password'? visibility?<VisibilityIcon className="passwordIcon" onClick={visibilityHandler}/>:<VisibilityOffIcon className="passwordIcon" onClick={visibilityHandler}/>:''}
         </InputWrapper>
     );
 }

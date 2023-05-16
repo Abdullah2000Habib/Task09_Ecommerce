@@ -4,7 +4,8 @@ import styled from "@emotion/styled";
 export const InputWrapper = styled('div')`
 label:InputWrapper;
 position:relative;
-&>:nth-child(2){
+width:100%;
+&>.passwordIcon{
     position: absolute;
     top: 50%;
     right: 2%;

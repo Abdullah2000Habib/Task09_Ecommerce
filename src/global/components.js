@@ -6,6 +6,11 @@ export const Container = styled.div`
     width: 90%;
     margin: auto;
 `
+export const UitComponent = styled.div`
+    label:UitComponent;
+    width: 100%;
+    padding: 3rem 0;
+`
 export const Checkbox = styled.input`
     label:Checkbox;
     cursor: pointer;
