@@ -3,15 +3,16 @@ import styled from "@emotion/styled";
 
 export const InputWrapper = styled('div')`
 label:InputWrapper;
-display: flex;
-flex-direction:column;
-width: 100%;
-margin-left:10rem;
-
-`
-export const InputLabel = styled('label')`
-label:InputLabel;
-font-size: ${({theme})=>theme.fontSizes.h4}rem;
+position:relative;
+&>:nth-child(2){
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    transform: translateY(-50%);
+    font-size: ${({theme})=>theme.fontSizes.passIcon}rem;
+    color: ${({theme})=>theme.pallet.blackColor3};
+    cursor: pointer;
+}
 `
 export const InputFelid = styled('input')`
 label:InputFelid;
@@ -22,4 +23,7 @@ outline: none;
 border-radius:6px;
 border:1px solid ${({theme})=>theme.pallet.greyColor2};
 font-size:${({theme})=>theme.fontSizes.h4}rem;
+padding-right: 1.9rem;
+
 `
+

@@ -1,8 +1,14 @@
 
+
+const boxShadows = {
+  boxShadow1: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
+};
+  
 const fontSizes = {
   h1: 2.5,
   h2: 2,
   h3: 1.5,
+  passIcon:1.3,
   h4: 1,
   h5: 0.8125,
   h6: 0.7,
@@ -42,6 +48,7 @@ export const lightTheme = {
     redColor: '#FA3434;', //      ${({theme}) => theme.pallet.redColor};
   },
   fontSizes,
+  boxShadows,
 };
 
 export const darkTheme = {
@@ -76,4 +83,5 @@ export const darkTheme = {
     redColor: '#FA3434;', //      ${({theme}) => theme.pallet.redColor};
   },
   fontSizes,
+  boxShadows,
 };

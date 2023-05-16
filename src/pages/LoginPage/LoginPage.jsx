@@ -1,10 +1,19 @@
 import React from 'react';
-import Input from '../../components/Input/Input';
+import Login from '../../components/Login/Login';
+import SecondaryFooter from '../../components/SecondaryFooter/SecondaryFooter';
+import { Container } from '../../global/components';
+import { LoginPageWrapper } from './style';
 
 const LoginPage = () => {
     return (
-        <>
-            <Input label='Username' placeholder='Email or Phone' id='1' name='Username' type='text'/>
+        <> 
+            <LoginPageWrapper>
+                <Container>
+                    <Login/>
+                </Container>
+                <SecondaryFooter/>
+            </LoginPageWrapper>
+
         </>
     );
 }
