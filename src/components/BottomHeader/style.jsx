@@ -56,7 +56,20 @@ transition: 0.3s;
 white-space:nowrap;
 &:hover{
     color:${({theme})=>theme.pallet.blueColor};
+    
 }
+@media (max-width: 500px) {
+    width: 100%;
+    padding:0.5rem;
+    border-radius: 6px;
+    &:hover{
+       color:white;
+
+    background-color: ${({theme})=>theme.pallet.blueColor};
+    
+}
+}
+
 `
 export const Selector =styled('select')`
 label:Selector;
