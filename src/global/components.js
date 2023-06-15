@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 
 export const Container = styled.div`
     label:Container;
-    width: 90%;
+    width: 85%;
     margin: auto;
 `
 export const UitComponent = styled.div`

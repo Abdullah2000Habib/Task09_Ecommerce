@@ -14,6 +14,7 @@ ${({theme,color})=>color==='google'?`background-color:${theme.pallet.whiteColor}
 font-size:${({theme})=>theme.fontSizes.h4}rem;
 transition: all 0.2s ease-in-out;
 box-shadow: 2px 1px 3px rgba(0,0,0,0.2);
+padding:0.5rem 1rem;
 &:hover {
     ${({theme,color})=>color==='google'?`background-color:${theme.pallet.greyColor2}`:`background-color:${theme.pallet.blueColor};`}};
 `
