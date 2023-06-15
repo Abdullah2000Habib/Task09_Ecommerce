@@ -24,6 +24,7 @@ export const SearchBoxWrapper =styled('div')`
 label:SearchBoxWrapper;
 display: flex;
 width:50%;
+
 border:2px solid ${({theme})=>theme.pallet.blueColor};
 border-radius:5px ;
 overflow: hidden;
@@ -31,7 +32,13 @@ overflow: hidden;
     border-radius: 0;
     width:30%;
 }
-
+/* ------------------------ */
+@media (max-width: 1270px) {
+    width:90%;
+}
+@media (max-width: 280px) {
+    display:none;
+}
 
 `
 

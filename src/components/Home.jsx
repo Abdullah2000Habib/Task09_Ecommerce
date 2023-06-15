@@ -6,6 +6,7 @@ const Home = () => {
     const routes =useRoutes(router)
     return (
         <>
+        
             {routes}
         </>
     );

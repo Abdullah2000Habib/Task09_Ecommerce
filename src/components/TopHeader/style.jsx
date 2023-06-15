@@ -10,7 +10,13 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 padding: 1.5rem 0;
-
+flex-wrap: wrap;
+gap:0.8rem;
+@media (max-width: 1220px) {
+flex-direction: column;
+gap:1rem;
+align-items: start;
+}
 `
 export const TopHeaderImage =styled('img')`
 label:TopHeaderImage;
