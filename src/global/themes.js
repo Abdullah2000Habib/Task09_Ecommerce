@@ -43,6 +43,8 @@ export const lightTheme = {
     blueColor4: '#0067FF', //      ${({theme}) => theme.pallet.blueColor4};
     blueColor5: '#237CFF', //      ${({theme}) => theme.pallet.blueColor5};
     blueColor6: '#005ADE;', //      ${({theme}) => theme.pallet.blueColor6};
+    blueColor7: '#55bdc4;', //      ${({theme}) => theme.pallet.blueColor6};
+    blueColor8: "#e5f1ff", //      ${({theme}) => theme.pallet.blueColor6};
     orangeColor: '#FF9017;', //      ${({theme}) => theme.pallet.orangeColor};
     greenColor: '#00B517;', //      ${({theme}) => theme.pallet.greenColor};
     redColor: '#FA3434;', //      ${({theme}) => theme.pallet.redColor};
@@ -78,6 +80,8 @@ export const darkTheme = {
     blueColor4: '#0067FF', //      ${({theme}) => theme.pallet.blueColor4};
     blueColor5: '#237CFF', //      ${({theme}) => theme.pallet.blueColor5};
     blueColor6: '#005ADE;', //      ${({theme}) => theme.pallet.blueColor6};
+    blueColor7: '#55bdc4;', //      ${({theme}) => theme.pallet.blueColor6};
+    blueColor8: "#e6f1ff",
     orangeColor: '#FF9017;', //      ${({theme}) => theme.pallet.orangeColor};
     greenColor: '#00B517;', //      ${({theme}) => theme.pallet.greenColor};
     redColor: '#FA3434;', //      ${({theme}) => theme.pallet.redColor};
