@@ -5,6 +5,7 @@ import EighthFloor from '../../components/EighthFloor/EighthFloor';
 import FifthFloor from '../../components/FifthFloor/FifthFloor';
 import FirstFloor from '../../components/FirstFloor/FirstFloor';
 import FourthFloor from '../../components/FourthFloor/FourthFloor';
+import NinthFloor from '../../components/NinthFloor/NinthFloor';
 import SecondFloor from '../../components/SecondFloor/SecondFloor';
 import SixthFloor from '../../components/SixthFloor/SixthFloor';
 import ThirdFloor from '../../components/ThirdFloor/ThirdFloor';
@@ -24,6 +25,7 @@ const MainPage = () => {
             <SixthFloor/>
             <SeventhFloor/>
             <EighthFloor/>
+            <NinthFloor/>
         </MainPageWrapper>
     );
 }
