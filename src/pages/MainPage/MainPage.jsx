@@ -1,5 +1,6 @@
 import React from 'react';
 
+import BottomFooter from '../../components/BottomFooter/BottomFooter';
 import BottomHeader from '../../components/BottomHeader/BottomHeader';
 import EighthFloor from '../../components/EighthFloor/EighthFloor';
 import FifthFloor from '../../components/FifthFloor/FifthFloor';
@@ -28,6 +29,7 @@ const MainPage = () => {
             <EighthFloor/>
             <NinthFloor/>
             <TopFooter/>
+            <BottomFooter/>
         </MainPageWrapper>
     );
 }
