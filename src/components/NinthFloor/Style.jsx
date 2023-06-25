@@ -5,7 +5,7 @@ export const NinthFloorWrapper=styled('div')`
 label:NinthFloorWrapper;
 background-color:${({theme})=>theme.pallet.greyColor2};
 padding: 2.5rem 1rem;
-margin: 3rem 0 ;
+margin-top:3rem;
 display: flex;
 flex-direction:column;
 align-items: center;

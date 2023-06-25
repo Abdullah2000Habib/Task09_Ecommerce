@@ -9,6 +9,7 @@ import NinthFloor from '../../components/NinthFloor/NinthFloor';
 import SecondFloor from '../../components/SecondFloor/SecondFloor';
 import SixthFloor from '../../components/SixthFloor/SixthFloor';
 import ThirdFloor from '../../components/ThirdFloor/ThirdFloor';
+import TopFooter from '../../components/TopFooter/TopFooter';
 import TopHeader from '../../components/TopHeader/TopHeader';
 import SeventhFloor from '../../components/seventhFloor/seventhFloor';
 import { MainPageWrapper } from './style';
@@ -26,6 +27,7 @@ const MainPage = () => {
             <SeventhFloor/>
             <EighthFloor/>
             <NinthFloor/>
+            <TopFooter/>
         </MainPageWrapper>
     );
 }
