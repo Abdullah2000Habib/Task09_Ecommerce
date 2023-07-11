@@ -5,6 +5,7 @@ import MainPage from "../pages/MainPage/MainPage";
 import ProductsPage from "../pages/ProductsPage/ProductsPage";
 import RegisterPage from "../pages/RegisterPage/RegisterPage";
 import StorPage from "../pages/StorPage/StorPage";
+import ViewProductPage from "../pages/ViewProductPage/ViewProductPage";
 
 export const router = [ 
     {path:PATH.LOGIN,element:<LoginPage/>},
@@ -14,4 +15,5 @@ export const router = [
     {path:PATH.PRODUCTS,element:<ProductsPage/>},
     {path:PATH.CART,element:<CartPage/>},
     {path:PATH.STOR,element:<StorPage/>},
+    {path:PATH.PRODUCT,element:<ViewProductPage/>},
 ]

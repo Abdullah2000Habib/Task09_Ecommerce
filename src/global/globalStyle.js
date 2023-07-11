@@ -8,18 +8,22 @@ const GlobalStyle =(theme)=>css`
         box-sizing: border-box;
         font-family: 'Inter','sans-serif';
     }
-
+    
     body{
         background-color: ${theme.pallet.bgPrimary};
         font-family: 'Inter', sans-serif;
     }
-
+    
     a{
         text-decoration: none;
     }
-
+    
     .link {
         color: ${theme.pallet.blueColor};
+    }
+    
+    table{
+        border-collapse: collapse;
     }
 `
 

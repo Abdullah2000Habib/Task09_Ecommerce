@@ -49,7 +49,8 @@ export const lightTheme = {
     greenColor: '#00B517;',
     greenColor1: '#04c01d;', //      ${({theme}) => theme.pallet.greenColor};
     redColor: '#FA3434;', //      ${({theme}) => theme.pallet.redColor};
-    redColor1: '#ffe3e3;', //      ${({theme}) => theme.pallet.redColor};
+    redColor1: '#feefde;', //      ${({theme}) => theme.pallet.redColor};
+    redColor2: '#ffe3e3;', //      ${({theme}) => theme.pallet.redColor};
 
   },
   fontSizes,

@@ -26,7 +26,7 @@ const CartPage = () => {
                     </CartPagePayment>
                 </CartPageFirstFloor>
                 <Features/>
-                <SavedCards/>
+                <SavedCards related={false}/>
                 <Discount/>
             </Container>
             <TopFooter/>
