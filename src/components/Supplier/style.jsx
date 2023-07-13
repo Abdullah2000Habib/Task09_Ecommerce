@@ -23,7 +23,7 @@ align-self: center;
 `
 export const SupplierTitle=styled('span')`
 label:SupplierTitle;
-    color:${({theme})=>theme.pallet.greyColor6};
+    color:${({theme})=>theme.pallet.greyColor};
     font-size: 0.9rem;
 
 `

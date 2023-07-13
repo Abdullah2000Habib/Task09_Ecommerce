@@ -11,7 +11,7 @@ label:RegisterWrapper;
     width: 95%;
   }
 margin:auto;
-background-color: ${({theme})=>theme.pallet.whiteColor};
+background-color: ${({theme})=>theme.pallet.whiteColor1};
 width: 30%;
 padding: ${({theme})=>theme.fontSizes.body}rem ${({theme})=>theme.fontSizes.h3}rem ;
 border-radius: 6px;
@@ -24,6 +24,7 @@ box-shadow: ${({theme})=>theme.boxShadows.boxShadow1};
 export const RegisterTitle =styled('h4')`
 label:RegisterTitle;
 font-size: ${({theme})=>theme.fontSizes.h3}rem;
+color: ${({theme})=>theme.pallet.blackColor};
 `
 export const RegisterName =styled('div')`
 label:RegisterName;      

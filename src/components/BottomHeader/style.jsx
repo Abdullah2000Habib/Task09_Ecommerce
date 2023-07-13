@@ -24,7 +24,9 @@ width: 60%;
 display: flex;
 align-items: center;
 gap:0.5rem;
-
+&>svg{
+color:${({theme})=>theme.pallet.blackColor};
+}
 @media (max-width: 1220px) {
     flex-direction: column;
     width: 100%;
@@ -54,6 +56,7 @@ font-weight: 500;
 cursor: pointer;
 transition: 0.3s;
 white-space:nowrap;
+color:${({theme})=>theme.pallet.blackColor};
 &:hover{
     color:${({theme})=>theme.pallet.blueColor};
     
@@ -84,6 +87,8 @@ cursor:pointer;
 border: none;
 border-radius: none;
 width: fit-content;
+background-color: transparent;
+color:${({theme})=>theme.pallet.blackColor};
 &>::after{
 background-color:${({theme})=>theme.pallet.blueColor};
 }
@@ -95,6 +100,8 @@ padding:0;
 `
 export const Option =styled('option')`
 label:Option;
+color:${({theme})=>theme.pallet.blackColor};
+background-color:${({theme})=>theme.pallet.whiteColor};
 `
 
 export const BottomHeaderWrapperRight =styled('div')`
@@ -117,6 +124,10 @@ display: flex;
 align-items: center;
 gap: 0.5rem;
 cursor:pointer;
+
+&>svg{
+color:${({theme})=>theme.pallet.blackColor};
+}
 `
 
 

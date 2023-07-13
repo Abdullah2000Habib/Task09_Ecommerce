@@ -34,7 +34,7 @@ background-color: ${({theme})=>theme.pallet.blueColor};
 `
 export const DiscountTitle=styled('h3')`
 label:DiscountTitle;
-color: ${({theme})=>theme.pallet.whiteColor};
+color: white;
 font-size: 1.6rem;
 font-weight:600;
 

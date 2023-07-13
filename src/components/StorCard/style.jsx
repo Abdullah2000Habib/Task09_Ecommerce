@@ -5,7 +5,7 @@ export const StorCardWrapper=styled('div')`
 label:StorCardWrapper;
 border:1px solid ${({theme})=>theme.pallet.greyColor2};
 border-radius:6px;
-background-color:${({theme})=>theme.pallet.whiteColor};
+background-color:${({theme})=>theme.pallet.whiteColor1};
 display: flex;
 gap:0.5rem;
 align-items: flex-start;
@@ -55,7 +55,7 @@ export const StorCardTitle=styled('span')`
 label:StorCardTitle;
 font-weight: 500;
 font-size:1.1rem;
-
+color: ${({theme})=>theme.pallet.blackColor};
 `
 export const StorCardPrice=styled('div')`
 label:StorCardPrice;
@@ -67,6 +67,7 @@ export const StorCardNewPrice=styled('span')`
 label:StorCardNewPrice;
 font-weight: 600;
 font-size:1.5rem;
+color: ${({theme})=>theme.pallet.blackColor};
 `
 export const StorCardOldPrice=styled('span')`
 label:StorCardOldPrice;
@@ -159,7 +160,7 @@ color:${({theme})=>theme.pallet.greyColor6};
 font-size:1.1rem;
 width:80%;
 line-height:1.5;
-
+color: ${({theme})=>theme.pallet.greyColor};
 @media screen  and (max-width:1000px){
 width:100%;
 }

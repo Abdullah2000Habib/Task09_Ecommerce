@@ -6,7 +6,7 @@ display: flex;
 /* flex-wrap: wrap; */
 gap:1.5rem;
 padding:1rem;
-background-color: ${({theme})=>theme.pallet.whiteColor};
+background-color: ${({theme})=>theme.pallet.whiteColor1};
 border:1px solid ${({theme})=>theme.pallet.greyColor2};
 border-radius: 6px;
 margin: 1.5rem 0 ;

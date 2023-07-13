@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 export const CouponCardWrapper=styled('div')`
 label:CouponCardWrapper;
 border:1px solid ${({theme})=>theme.pallet.greyColor2};
-background-color: ${({theme})=>theme.pallet.whiteColor};
+background-color: ${({theme})=>theme.pallet.whiteColor1};
 border-radius: 5px;
 display: flex;
 flex-direction: column;
@@ -36,6 +36,8 @@ border:none;
 outline: none;
 padding:${({theme})=>theme.fontSizes.body}rem;
 font-size:${({theme})=>theme.fontSizes.h4}rem;
+background-color:white;
+height: 100%;
 
 `
 export const CouponCardButton=styled('button')`
@@ -47,7 +49,7 @@ padding-right: 1rem;
 cursor:pointer;
 outline: none;
 border:none;
-background-color: ${({theme})=>theme.pallet.whiteColor};
+background-color:white;
 color: ${({theme})=>theme.pallet.blueColor};
 font-size:1.1rem;
 font-weight: 600;

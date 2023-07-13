@@ -36,6 +36,7 @@ gap:0.5rem;
 `
 export const MainProductCardTitle=styled('span')`
 label:MainProductCardTitle;
+color:${({theme})=>theme.pallet.blackColor};
 
 `
 export const MainProductCardPrice=styled('span')`

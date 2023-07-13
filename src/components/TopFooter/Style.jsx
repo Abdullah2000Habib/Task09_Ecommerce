@@ -42,9 +42,9 @@ cursor: pointer;
 `
 export const TopFooterLeftDescription=styled('span')`
 label:TopFooterLeftDescription;
-color:${({theme})=>theme.pallet.greyColor6};
 font-size:1.1rem;
 font-weight:400;
+color:${({theme})=>theme.pallet.blackColor};
 `
 export const TopFooterLeftSocial=styled('div')`
 label:TopFooterLeftSocial;
@@ -89,6 +89,7 @@ export const TopFooterTitle=styled('h3')`
 label:TopFooterTitle;
 font-weight:500;
 font-size:1.4rem;
+color:${({theme})=>theme.pallet.blackColor};
 `
 export const TopFooterCenterContainerItem=styled('span')`
 label:TopFooterCenterContainerItem;

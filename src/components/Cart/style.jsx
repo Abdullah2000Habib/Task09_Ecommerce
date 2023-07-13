@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 
 export const CartWrapper=styled('div')`
 label:CartWrapper;
-background-color:${({theme})=>theme.pallet.whiteColor};
+background-color:${({theme})=>theme.pallet.whiteColor1};
 padding:1.5rem;
 border: 1px solid ${({theme})=>theme.pallet.greyColor2};
 border-radius: 6px;
@@ -20,7 +20,9 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 padding-top: 1.5rem;
-
+&>:first-child{
+    color:white;
+}
 &>button{
     width:fit-content;
     height: 3rem;

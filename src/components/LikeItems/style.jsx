@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 
 export const LikeItemsWrapper=styled('div')`
 label:LikeItemsWrapper;
-background-color: ${({theme})=>theme.pallet.whiteColor};
+background-color: ${({theme})=>theme.pallet.whiteColor1};
 border:1px solid ${({theme})=>theme.pallet.greyColor2};
 border-radius:6px;
 padding:1rem;

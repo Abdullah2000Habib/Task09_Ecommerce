@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 
 export const CartCardWrapper=styled('div')`
 label:CartCardWrapper;
-background-color: ${({theme})=>theme.pallet.whiteColor};
+background-color: ${({theme})=>theme.pallet.whiteColor1};
 display: flex;
 justify-content:space-between;
 padding:1rem 0; 
@@ -55,7 +55,8 @@ align-items: center;
 export const CartCardTitle=styled('h3')`
 label:CartCardTitle;
 font-weight: 500;
-font-size: 1.1rem;
+font-size: 1.1rem;color:${({theme})=>theme.pallet.blackColor};
+
 @media screen and (max-width: 500px) {
 width: 100%;
 }
@@ -95,7 +96,7 @@ cursor:pointer;
 border-radius: 6px;
 outline: none;
 border:none;
-background-color:${({theme})=>theme.pallet.whiteColor};
+background-color:white;
 color:${({theme})=>theme.pallet.redColor};
 font-size:1rem;
 font-weight:500;
@@ -114,7 +115,7 @@ cursor:pointer;
 border-radius: 6px;
 outline: none;
 border:none;
-background-color:${({theme})=>theme.pallet.whiteColor};
+background-color:white;
 color:${({theme})=>theme.pallet.blueColor};
 font-size:1rem;
 font-weight:500;
@@ -140,6 +141,7 @@ export const CartCardPrice=styled('span')`
 label:CartCardPrice;
 font-size: 1.1rem;
 font-weight: 500;
+color:${({theme})=>theme.pallet.blackColor};
 `
 
 export const CartCardCounts =styled('select')`

@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 export const CheckoutCardWrapper=styled('div')`
 label:CheckoutCardWrapper;
 border:1px solid ${({theme})=>theme.pallet.greyColor2};
-background-color: ${({theme})=>theme.pallet.whiteColor};
+background-color: ${({theme})=>theme.pallet.whiteColor1};
 border-radius: 5px;
 display: flex;
 flex-direction: column;
@@ -76,7 +76,7 @@ border-radius: 6px;
 outline: none;
 border:none;
 background-color: ${({theme})=>theme.pallet.greenColor};
-color: ${({theme})=>theme.pallet.whiteColor};
+color: white;
 font-size:1.3rem;
 font-weight: 500;
 transition: all 0.2s ease-in-out;

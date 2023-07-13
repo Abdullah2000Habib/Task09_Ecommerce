@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 export const SecondFloorWrapper=styled('div')`
 label:SecondFloorWrapper;
 display: flex;
-background-color: ${({theme})=>theme.pallet.whiteColor};
+background-color: ${({theme})=>theme.pallet.whiteColor1};
 border:1px solid ${({theme})=>theme.pallet.greyColor2};
 border-right: none;
 border-radius:6px;

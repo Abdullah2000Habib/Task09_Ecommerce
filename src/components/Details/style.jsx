@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 
 export const DetailsWrapper=styled('div')`
 label:DetailsWrapper;
-background-color: ${({theme})=>theme.pallet.whiteColor};
+background-color: ${({theme})=>theme.pallet.whiteColor1};
 padding:1rem;
 display: flex;
 flex-direction: column;
@@ -17,7 +17,7 @@ box-shadow: rgba(0, 0, 0, 0.20) 0px 0px 2px;
 `
 export const DetailsDescription=styled('p')`
 label:DetailsDescription;
-color: ${({theme})=>theme.pallet.greyColor6};
+color: ${({theme})=>theme.pallet.blackColor};
 font-size: 1.1rem;
 line-height: 1.5;
 width: 80%;
@@ -43,6 +43,6 @@ gap:0.5rem;
 `
 export const DetailsTitle=styled('span')`
 label:DetailsTitle;
-color: ${({theme})=>theme.pallet.greyColor6};
+color: ${({theme})=>theme.pallet.greyColor};
 font-size:1.1rem;
 `

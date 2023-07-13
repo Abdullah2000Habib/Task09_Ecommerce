@@ -15,7 +15,7 @@ position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%,-50%);
-background-color: ${({theme})=>theme.pallet.whiteColor};
+background-color: ${({theme})=>theme.pallet.whiteColor1};
 color:${({theme})=>theme.pallet.greyColor};
 padding: 4px;
 border-radius: 5px;

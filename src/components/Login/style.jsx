@@ -12,7 +12,7 @@ label:LoginWrapper;
     width: 95%;
   }
 margin:auto;
-background-color: ${({theme})=>theme.pallet.whiteColor};
+background-color: ${({theme})=>theme.pallet.whiteColor1};
 width: 30%;
 padding: ${({theme})=>theme.fontSizes.body}rem ${({theme})=>theme.fontSizes.h3}rem ;
 border-radius: 6px;
@@ -21,10 +21,18 @@ display: flex;
 flex-direction: column;
 gap: 1.3rem;
 box-shadow: ${({theme})=>theme.boxShadows.boxShadow1};
+
+&>button:nth-of-type(2){
+  background-color: white;
+}
+&>button:nth-of-type(3){
+color: white;
+}
 `
 export const LoginTitle =styled('h4')`
 label:LoginTitle;
 font-size: ${({theme})=>theme.fontSizes.h3}rem;
+color: ${({theme})=>theme.pallet.blackColor};
 `
 export const InputContainer =styled('div')`
 label:InputContainer;

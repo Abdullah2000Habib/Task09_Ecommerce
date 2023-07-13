@@ -50,12 +50,12 @@ cursor:pointer;
 border-radius: 6px;
 outline: none;
 border:none;
-${({theme})=>`background-color:${theme.pallet.blueColor6}`};
+background-color:#005ADE;
 font-size:${({theme})=>theme.fontSizes.h4}rem;
 transition: all 0.2s ease-in-out;
 box-shadow: 2px 1px 3px rgba(0,0,0,0.2);
 padding:0.5rem 1rem;
-${({theme})=>`color:${theme.pallet.whiteColor}`};
+color:white;
 
 &:hover {
     ${({theme})=>`background-color:${theme.pallet.blueColor}`};
@@ -74,13 +74,12 @@ width: 100%;
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
   font-weight: 500;
   padding:0.5rem 1rem;
+  color:#0D6EFD;
+   background-color:white;
 
-  ${({ theme }) =>
-    ` background-color: ${theme.pallet.whiteColor}; color:${theme.pallet.blueColor};`}
-  font-size: ${({ theme }) => theme.fontSizes.h4}rem;
   &:hover {
     ${({ theme }) =>
-      ` background-color: ${theme.pallet.greyColor5}; color:${theme.pallet.blueColor};`}
+      ` background-color: ${theme.pallet.greyColor5}`};
   }
 
 `

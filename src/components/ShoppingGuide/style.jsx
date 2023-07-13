@@ -53,7 +53,9 @@ top: 3px;
 export const ShoppingGuideTitle=styled('span')`
 label:ShoppingGuideTitle;
 font-weight:bold;
-font-size:1.3rem;`
+font-size:1.3rem;
+color:black;
+`
 
 export const ShoppingGuideBtn=styled('button')`
 label:ShoppingGuideBtn;
@@ -63,7 +65,7 @@ cursor:pointer;
 border-radius: 6px;
 outline: none;
 border:none;
-${({theme})=>`background-color:${theme.pallet.whiteColor}`};
+background-color:white;
 font-size:${({theme})=>theme.fontSizes.h4}rem;
 transition: all 0.2s ease-in-out;
 box-shadow: 2px 1px 3px rgba(0,0,0,0.2);

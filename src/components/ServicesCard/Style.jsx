@@ -5,7 +5,7 @@ label:ServicesCardWrapper;
 cursor:pointer;
 height: 250px;
 flex:1 200px;
-background-color:${({theme})=>theme.pallet.whiteColor};
+background-color:${({theme})=>theme.pallet.whiteColor1};
 display: flex;
 flex-direction: column;
 border-radius:6px;
@@ -57,6 +57,8 @@ label:ServicesCardTitle;
 display:inline-block;
 background-color:white;
 padding:1rem;
+background-color:transparent;
+color:${({theme})=>theme.pallet.blackColor};
 width:80%;
 font-weight: 500;
 

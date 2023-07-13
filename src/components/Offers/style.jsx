@@ -20,12 +20,14 @@ export const OffersTitle=styled('h2')`
 label:OffersTitle;
 font-size: 1.2rem;
 font-weight: 600;
+color:${({theme})=>theme.pallet.blackColor};
 `
 
 export const OffersDetails=styled('span')`
 label:OffersDetails;
 font-size: 1rem;
-color:${({theme})=>theme.pallet.greyColor};
+/* color:${({theme})=>theme.pallet.greyColor}; */
+color:${({theme})=>theme.pallet.blackColor};
 `
 
 export const TimeCeils=styled('div')`

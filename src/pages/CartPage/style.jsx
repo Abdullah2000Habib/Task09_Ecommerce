@@ -9,6 +9,7 @@ label:CartPageTitle;
 font-size: 1.6rem;
 font-weight: 600;
 margin:1.5rem 0 ;
+color:${({theme})=>theme.pallet.blackColor};
 `
 export const CartPageFirstFloor=styled('div')`
 label:CartPageFirstFloor;

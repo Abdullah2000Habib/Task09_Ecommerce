@@ -38,10 +38,12 @@ gap: 0.1rem;
 export const TrendingSpan =styled('span')`
 label:TrendingSpan;
 font-size: 2rem;
+color: ${({theme})=>theme.pallet.blackColor};
 `
 export const TrendingTitle =styled('h3')`
 label:TrendingTitle;
 font-size:2rem;
+color: ${({theme})=>theme.pallet.blackColor};
 `
 export const TrendingButton =styled('button')`
 label:TrendingButton;
@@ -51,7 +53,7 @@ cursor:pointer;
 border-radius: 6px;
 outline: none;
 border:none;
-${({theme})=>`background-color:${theme.pallet.whiteColor}`};
+background-color:#ffffff;
 font-size:${({theme})=>theme.fontSizes.h4}rem;
 transition: all 0.2s ease-in-out;
 box-shadow: 2px 1px 3px rgba(0,0,0,0.2);

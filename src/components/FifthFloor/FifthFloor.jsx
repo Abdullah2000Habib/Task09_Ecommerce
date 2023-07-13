@@ -13,7 +13,7 @@ const FifthFloor = () => {
                 </FifthFloorContainer>
                 <Quote/>
             </FifthFloorWrapper>
-        </Container>
+        </Container>    
     );
 }
 

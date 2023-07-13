@@ -5,7 +5,7 @@ label:GalleryWrapper;
 display: flex;
 flex-direction: column;
 gap:1rem;
-background-color: ${({theme})=>theme.pallet.whiteColor};
+background-color: ${({theme})=>theme.pallet.whiteColor1};
 width:40%;
 flex:1;
     @media screen and (max-width: 1429px){

@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 
 export const BottomFooterBody=styled('div')`
 label:BottomFooterBody;
-background-color: ${({theme})=>theme.pallet.greyColor2};
+background-color: ${({theme})=>theme.pallet.greyColor2A};
 padding: 2rem 0;
 `
 export const BottomFooterWrapper=styled('div')`
@@ -16,7 +16,7 @@ gap:1rem;
 `
 export const BottomFooterCopyRight=styled('span')`
 label:BottomFooterCopyRight;
-color: ${({theme})=>theme.pallet.greyColor6};
+color: ${({theme})=>theme.pallet.blackColor};
 font-size: 1.2rem;
 `
 export const BottomFooterContainer=styled('div')`
@@ -32,6 +32,6 @@ label:BottomFooterImg;
 `
 export const BottomFooterLang=styled('span')`
 label:BottomFooterLang;
-color: ${({theme})=>theme.pallet.greyColor6};
+color: ${({theme})=>theme.pallet.blackColor};
 font-size: 1.2rem;
 `

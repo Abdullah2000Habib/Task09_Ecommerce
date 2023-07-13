@@ -15,7 +15,8 @@ cursor: pointer;
 `
 export const SelectTitle=styled('label')`
 label:SelectTitle;
-color:${({theme})=>theme.pallet.greyColor6};
+color:${({theme})=>theme.pallet.greyColor};
 font-size:1.1rem;
 cursor: pointer;
+
 `

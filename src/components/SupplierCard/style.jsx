@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 
 export const SupplierCardWrapper=styled('div')`
 label:SupplierCardWrapper;
-background-color: ${({theme})=>theme.pallet.whiteColor};
+background-color: ${({theme})=>theme.pallet.whiteColor1};
 border: 1px solid ${({theme})=>theme.pallet.greyColor2};
 border-radius: 6px;
 padding:1.5rem;
@@ -33,7 +33,7 @@ gap:0.5rem;
 `
 export const SupplierCardTitle=styled('span')`
 label:SupplierCardTitle;
-color: ${({theme})=>theme.pallet.greyColor6};
+color: ${({theme})=>theme.pallet.greyColor};
 font-size: 1.1rem;
 `
 export const SupplierCardDetails=styled('div')`
@@ -84,10 +84,14 @@ gap:0.5rem;
     padding:0.5rem 0;
     font-weight: 500;
     font-size: 1.3rem;
+        transition:all 0.3s ease-in-out;
+
 }
 
 &>:last-child {
-    color:  ${({theme})=>theme.pallet.blueColor};
+    background-color: white;
+    color: ${({theme})=>theme.pallet.blueColor};
+     transition:all 0.3s ease-in-out;
 }
 
 @media screen and (max-width: 280px){

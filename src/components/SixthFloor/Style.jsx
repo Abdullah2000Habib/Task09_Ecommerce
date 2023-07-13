@@ -11,6 +11,7 @@ export const SixthFloorTitle=styled('h3')`
 label:SixthFloorTitle;
 font-weight:600;
 font-size:1.4rem;
+color:${({theme})=>theme.pallet.blackColor};
 `
 export const SixthFloorCards=styled('div')`
 label:SixthFloorCards;

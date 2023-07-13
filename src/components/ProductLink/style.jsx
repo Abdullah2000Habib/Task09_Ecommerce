@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 
 export const ProductLinkWrapper =styled('div')`
 label:ProductLinkWrapper;
-background-color: white;
+/* background-color: white; */
 transition: 0.3s;
 border-radius: 8px;
 cursor: pointer;

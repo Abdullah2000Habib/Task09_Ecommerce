@@ -42,11 +42,13 @@ width: 115px;
 height: 115px;
 object-fit:contain;
 
+
 `
 
 export const ProductOfferCardTitle=styled('span')`
 label:ProductOfferCardWrapper;
 margin-top: 0.5rem;
+color: ${({theme})=>theme.pallet.blackColor};
 `
 
 export const ProductOfferCardDiscount=styled('span')`

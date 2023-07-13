@@ -27,6 +27,7 @@ gap:0.5rem;
 
 &>button{
     color: ${({theme})=>theme.pallet.blueColor};
+    background-color:white;
     font-size: 1rem;
     font-weight:500;
     width: fit-content;
@@ -45,10 +46,11 @@ export const SavedCardPrice=styled('span')`
 label:SavedCardPrice;
 font-weight:600;
 font-size: 1.4rem;;
-
+color:${({theme})=>theme.pallet.blackColor};
 `
 export const SavedCardDescription=styled('span')`
 label:SavedCardDescription;
-color: ${({theme})=>theme.pallet.greyColor6};
+color: ${({theme})=>theme.pallet.greyColor};
 font-size: 1.2rem;
+
 `

@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 
 export const ProductDetailsWrapper=styled('div')`
 label:ProductDetailsWrapper;
-background-color: ${({theme})=>theme.pallet.whiteColor};
+background-color: ${({theme})=>theme.pallet.whiteColor1};
 display: flex;
 flex-direction: column;
 gap:0.5rem;
@@ -23,11 +23,13 @@ gap:0.5rem;
 export const ProductDetailsStatusName=styled('span')`
 label:ProductDetailsStatusName;
 font-size: 1.1rem;
+
 `
 export const ProductDetailsTitle=styled('h3')`
 label:ProductDetailsTitle;
 font-size: 1.4rem;
 font-weight: 600;
+color: ${({theme})=>theme.pallet.blackColor};
 `
 
 
@@ -154,10 +156,10 @@ color:${({theme})=>theme.pallet.blackColor};
 `
 export const ProductDetailsContainer=styled('div')`
 label:ProductDetailsContainer;
-background-color: ${({theme})=>theme.pallet.whiteColor};
 display: flex;
 flex-direction: column;
 gap:0.5rem;
+background-color: ${({theme})=>theme.pallet.whiteColor1};
 `
 export const ProductDetailsGroup=styled('div')`
 label:ProductDetailsGroup;
@@ -185,11 +187,11 @@ font-size:1.2rem;
 export const ProductDetailsGroupContainerTitle=styled('span')`
 label:ProductDetailsGroupContainerTitle;
 width:120px;
-color:${({theme})=>theme.pallet.greyColor4};
+color:${({theme})=>theme.pallet.blackColor};
 
 `
 
 export const ProductDetailsGroupContainerValue=styled('span')`
 label:ProductDetailsGroupContainerValue;
-color:${({theme})=>theme.pallet.greyColor6};
+color:${({theme})=>theme.pallet.greyColor};
 `

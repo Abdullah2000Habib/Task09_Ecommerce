@@ -33,7 +33,7 @@ width:200px;
 `
 export const LikeCardTitle=styled('span')`
 label:LikeCardTitle;
-color: ${({theme})=>theme.pallet.greyColor6};
+color: ${({theme})=>theme.pallet.blackColor};
 font-size: 1.1rem;
 line-height: 1.5;
 font-weight: 500;

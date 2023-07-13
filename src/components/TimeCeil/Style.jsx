@@ -17,10 +17,10 @@ cursor: pointer;
 export const TimeCeilNum=styled('span')`
 label:TimeCeilNum;
 font-weight: 500;
-color: ${({theme})=>theme.pallet.whiteColor};
+color: white;
 `
 export const TimeCeilUnit=styled('span')`
 label:TimeCeilUnit;
 font-size:0.6rem;
-color: ${({theme})=>theme.pallet.whiteColor};
+color: white;
 `

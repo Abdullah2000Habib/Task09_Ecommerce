@@ -38,6 +38,7 @@ export const FeatureCardTitle=styled('span')`
 label:FeatureCardTitle;
 font-size:1.1rem;
 width: 100%;
+color:${({theme})=>theme.pallet.blackColor};
 @media screen and (max-width: 280px) {
     font-size:1rem;
 }

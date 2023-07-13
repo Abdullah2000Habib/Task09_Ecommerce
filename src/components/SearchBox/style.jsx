@@ -6,7 +6,7 @@ label:Categories;
 padding:${({theme})=>theme.fontSizes.body}rem;
 border: none;
 outline: none;
-border-radius:6px;
+/* border-radius:6px; */
 border:1px solid ${({theme})=>theme.pallet.greyColor2};
 font-size:${({theme})=>theme.fontSizes.h4}rem;
 cursor:pointer;

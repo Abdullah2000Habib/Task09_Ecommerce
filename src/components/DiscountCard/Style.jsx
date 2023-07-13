@@ -5,7 +5,7 @@ export const DiscountCardWrapper=styled('div')`
 label:DiscountCardWrapper;
 border:1px solid ${({theme})=>theme.pallet.greyColor2};
 border-radius:6px;
-background-color:${({theme})=>theme.pallet.whiteColor};
+background-color:${({theme})=>theme.pallet.whiteColor1};
 display: flex;
 flex-direction:column;
 gap:0.5rem;
@@ -52,6 +52,7 @@ export const DiscountCardNewPrice=styled('span')`
 label:DiscountCardNewPrice;
 font-weight: 600;
 font-size:1.5rem;
+color: ${({theme})=>theme.pallet.blackColor};
 `
 export const DiscountCardOldPrice=styled('span')`
 label:DiscountCardOldPrice;
@@ -108,4 +109,5 @@ label:DiscountCardDescription;
 color:${({theme})=>theme.pallet.greyColor6};
 font-size:1.1rem;
 padding-bottom:2rem;
+color:${({theme})=>theme.pallet.greyColor};
 `

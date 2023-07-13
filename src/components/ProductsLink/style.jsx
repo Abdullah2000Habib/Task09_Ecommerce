@@ -6,7 +6,7 @@ width: 20%;
 min-height: 100%;
 display: flex;
 flex-direction: column;
-
+background-color: ${({theme})=>theme.pallet.whiteColor1};
 
 @media (max-width: 1285px) {
 flex:none;

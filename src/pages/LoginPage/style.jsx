@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 
 export const LoginPageWrapper =styled('div')`
 label:LoginPageWrapper;
-background:#ecf9ff;
+background-color: ${({theme})=>theme.pallet.greyColor3};
 height: 100vh;
 display: flex;
 flex-direction: column;

@@ -37,7 +37,7 @@ width:33%;
 display: flex;
 flex-direction: column;
 gap:1.5rem;
-color:${({theme})=>theme.pallet.whiteColor};
+color:white;
 
 @media screen and (max-width: 935px) {
     width:90%;;
